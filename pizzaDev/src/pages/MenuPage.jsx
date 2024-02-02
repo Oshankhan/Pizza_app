@@ -1,17 +1,16 @@
 import React from "react";
 
 const MenuPage = () => {
-  return <div>
-    <p>Catagories</p>
-    <br />
-    <div>
+  return (
+    <>
+      <CatagorySearch />
+
       <div>
-        <ul>
-          <li>a</li>
-        </ul>
+        <TypeOfFood />
+        <SingleDish />
       </div>
-    </div>
-  </div>;
+    </>
+  );
 };
 
 export default MenuPage;

@@ -9,9 +9,9 @@ import { Link } from "react-router-dom";
 import homeLogo from "../assets/homeLogo.png";
 
 const navigation = [
-  { name: "Menu", href: "./", current: false },
-  { name: "Offer", href: "", current: false },
-  { name: "MyOrder", href: "#", current: false },
+  { name: "Menu", href: "/menu", current: false },
+  { name: "Offer", href: "/offer", current: false },
+  { name: "MyOrder", href: "/order", current: false },
   { name: "", href: "#", current: false },
 ];
 
@@ -45,7 +45,7 @@ export default function Example() {
                       src={homeLogo}
                       alt="Your Company"
                     />
-                    <p className="mb-6 text-lg">Pizza Place</p>
+                    <p className="mb-2 text-lg ">Pizza Place</p>
                   </Link>
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
